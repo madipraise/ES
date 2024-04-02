@@ -1,0 +1,22 @@
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.audio-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: blue;
+    text-decoration: none;
+}
+
+.audio-link:hover {
+    color: darkblue;
+}
