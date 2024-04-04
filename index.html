@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Assessement of Self-supervised Denoising Methods for Esophageal Speech Enhancement</h1>
+    <p> Authors: Madiha Amarjouf, El Hassan Ibn Elhaj, Mouhcine Chami, Kadria Ezzine and Joseph Di Martino</p>
     <p>Abstract: Esophageal speech (ES) is a pathological voice that is difficult to understand. Besides that, it is difficult to obtain the recordings of the patient's voice before the laryngectomy, which complicates enhancing this kind of voice. That is why the most supervised methods used to enhance ES are based on voice conversion, which uses healthy speaker targets, thing that may not preserve the speaker’s identity. Otherwise, unsupervised methods for ES are mostly based on traditional filters, which cannot alone beat this kind of noise, making the denoising process difficult. Also, these methods are known for producing musical artifacts. To address these issues, a self-supervised method based on the Only-Noisy-Training (ONT) model was applied, consisting of denoising a signal without needing a clean target. Four experiments were conducted using Deep Complex UNET (DCUNET) and Deep Complex UNET with Complex Two Stage Transformer Module (DCUNET-cTSTM) for assessment. Both of these models are based on the ONT approach. Also, for comparison purposes and to calculate the evaluation metrics, the pre-trained VoiceFixer model was used to restore the clean wave files of Esophageal Speech. Even the fact that ONT-based methods work better with noisy wave files, the results have proven that ES could be denoised without the need for clean targets, and hence, the speaker’s identity is retained.</p>
 
     <h1>Results of testing with ES wave files using the pre-trained models of the 4 experiments</h1>
@@ -91,8 +92,12 @@
             <td><audio controls>
         <source src="VF_GM_00241.mp3" type="audio/mpeg">
     </audio></td>
-            <td>Row 1, Cell 2</td>
-            <td>Row 1, Cell 1</td>
+            <td><audio controls>
+        <source src="VF_Exp1.mp3" type="audio/mpeg">
+    </audio></td>
+            <td><audio controls>
+        <source src="VF_Exp1C.mp3" type="audio/mpeg">
+    </audio></td>
         </tr>
         <tr>
             <th>Experiment 2: VF test wave file</th>
@@ -103,8 +108,12 @@
             <td><audio controls>
         <source src="VF_GM_00241.mp3" type="audio/mpeg">
     </audio></td>
-            <td>Row 2, Cell 2</td>
-            <td>Row 2, Cell 1</td>
+            <td><audio controls>
+        <source src="VF_Exp2.mp3" type="audio/mpeg">
+    </audio></td>
+            <td><audio controls>
+        <source src="VF_Exp2C.mp3" type="audio/mpeg">
+    </audio></td>
         </tr>
         <tr>
             <th>Experiment 3: VF test wave file</th>
@@ -115,8 +124,12 @@
             <td><audio controls>
         <source src="VF_GM_00241.mp3" type="audio/mpeg">
     </audio></td>
-            <td>hello</td>
-            <td>hello</td>
+            <td><audio controls>
+        <source src="VF_Exp3.mp3" type="audio/mpeg">
+    </audio></td>
+            <td><audio controls>
+        <source src="VF_Exp3C.mp3" type="audio/mpeg">
+    </audio></td>
         </tr>
         <tr>
             <th>Experiment 4: VF test wave file</th>
@@ -127,8 +140,12 @@
             <td><audio controls>
         <source src="VF_GM_00241.mp3" type="audio/mpeg">
     </audio></td>
-            <td>Row 2, Cell 2</td>
-            <td>Row 2, Cell 1</td>
+            <td><audio controls>
+        <source src="VF_Exp4.mp3" type="audio/mpeg">
+    </audio></td>
+            <td><audio controls>
+        <source src="VF_Exp4C.mp3" type="audio/mpeg">
+    </audio></td>
         </tr>
     </table>
 
