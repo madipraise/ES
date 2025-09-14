@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <h1> Assessment of Self-Supervised Denoising Methods for Esophageal Speech Enhancement</h1>
-    <h2>By Madiha Amarjouf 1,* , El Hassan Ibn Elhaj 1, Mouhcine Chami 2, Kadria Ezzine 3 and Joseph Di Martino3</h2>
+    <h2>By Madiha Amarjouf, El Hassan Ibn Elhaj, Mouhcine Chami, Kadria Ezzine and Joseph Di Martino</h2>
+    <h2>Abstract: Esophageal speech (ES) is a pathological voice that is often difficult to understand. Moreover,
+acquiring recordings of a patient’s voice before a laryngectomy proves challenging, thereby
+complicating enhancing this kind of voice. That is why most supervised methods used to enhance
+ES are based on voice conversion, which uses healthy speaker targets, things that may not preserve
+the speaker’s identity. Otherwise, unsupervised methods for ES are mostly based on traditional
+filters, which cannot alone beat this kind of noise, making the denoising process difficult. Also, these
+methods are known for producing musical artifacts. To address these issues, a self-supervised method
+based on the Only-Noisy-Training (ONT) model was applied, consisting of denoising a signal without
+needing a clean target. Four experiments were conducted using Deep Complex UNET (DCUNET)
+and Deep Complex UNET with Complex Two-Stage Transformer Module (DCUNET-cTSTM) for
+assessment. Both of these models are based on the ONT approach. Also, for comparison purposes
+and to calculate the evaluation metrics, the pre-trained VoiceFixer model was used to restore the
+clean wave files of esophageal speech. Even with the fact that ONT-based methods work better with
+noisy wave files, the results have proven that ES can be denoised without the need for clean targets,
+and hence, the speaker’s identity is retained.</h2>
     <title>ES enhancement using DCUNET and DCUNET-cTSTM</title>
     <link rel="stylesheet" href="styles.css">
 </head>
